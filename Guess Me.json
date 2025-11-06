@@ -3394,6 +3394,110 @@
         "name": "Group 44.png",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite33.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite33",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Group 19.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Group 19.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Group (25)3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Group (25)3.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "GO.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "GO.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Rectangle 3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Rectangle 3.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Group 14.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Group 14.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Group 5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Group 5.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Group (24)3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Group (24)3.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "WAKTU HABIS.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "WAKTU HABIS.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "COBA LAGI.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "COBA LAGI.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "BERHASIL.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "BERHASIL.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "SELAMAT,KAMU HEBAT!.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "SELAMAT,KAMU HEBAT!.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Star 3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Star 3.png",
+        "smoothed": true,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -3410,10 +3514,30 @@
           "name": "id",
           "type": "number",
           "value": 0
+        },
+        {
+          "name": "is_wanted",
+          "type": "number",
+          "value": 0
         }
       ],
       "effects": [],
-      "behaviors": [],
+      "behaviors": [
+        {
+          "name": "ButtonFSM",
+          "type": "ButtonStates::ButtonFSM",
+          "ShouldCheckHovering": true,
+          "State": "Idle",
+          "TouchId": 0,
+          "TouchIsInside": false,
+          "MouseIsInside": false,
+          "Index": 2.0247e-320
+        },
+        {
+          "name": "YSort",
+          "type": "YSort::YSort"
+        }
+      ],
       "animations": [
         {
           "name": "2",
@@ -5781,8 +5905,8 @@
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 57,
+                    "y": 46.5
                   },
                   "centerPoint": {
                     "automatic": true,
@@ -5829,8 +5953,8 @@
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 57,
+                    "y": 46.5
                   },
                   "centerPoint": {
                     "automatic": true,
@@ -7903,6 +8027,10 @@
         {
           "name": "Tween",
           "type": "Tween::TweenBehavior"
+        },
+        {
+          "name": "YSort",
+          "type": "YSort::YSort"
         }
       ]
     },
@@ -9838,6 +9966,10 @@
         {
           "name": "Tween",
           "type": "Tween::TweenBehavior"
+        },
+        {
+          "name": "YSort",
+          "type": "YSort::YSort"
         }
       ]
     },
@@ -11724,6 +11856,10 @@
         {
           "name": "Tween",
           "type": "Tween::TweenBehavior"
+        },
+        {
+          "name": "YSort",
+          "type": "YSort::YSort"
         }
       ]
     },
@@ -12933,6 +13069,10 @@
           "type": "AnimatableCapability::AnimatableBehavior"
         },
         {
+          "name": "ButtonFSM",
+          "type": "ButtonStates::ButtonFSM"
+        },
+        {
           "name": "Effect",
           "type": "EffectCapability::EffectBehavior"
         },
@@ -12959,6 +13099,10 @@
         {
           "name": "Tween",
           "type": "Tween::TweenBehavior"
+        },
+        {
+          "name": "YSort",
+          "type": "YSort::YSort"
         }
       ]
     },
@@ -12982,12 +13126,47 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.5843784410740928,
+        "zoomFactor": 0.4633111824513977,
         "windowMask": false,
-        "selectedLayer": ""
+        "selectedLayer": "benar"
       },
-      "objectsGroups": [],
-      "variables": [],
+      "objectsGroups": [
+        {
+          "name": "Spawn",
+          "objects": [
+            {
+              "name": "SPAWN"
+            }
+          ]
+        }
+      ],
+      "variables": [
+        {
+          "name": "slimelocationX",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "slimelocationY",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "wanted",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "click2",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "timervalue",
+          "type": "number",
+          "value": 0
+        }
+      ],
       "instances": [
         {
           "angle": 0,
@@ -13022,15 +13201,509 @@
         },
         {
           "angle": 0,
-          "customSize": false,
-          "height": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 52,
           "keepRatio": true,
           "layer": "",
           "name": "SPAWN",
           "persistentUuid": "d9160ec0-2c47-43a5-a4f9-62c42df3617b",
-          "width": 0,
-          "x": 157,
-          "y": 591,
+          "width": 52,
+          "x": 30,
+          "y": 567,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 52,
+          "keepRatio": true,
+          "layer": "",
+          "name": "SPAWN",
+          "persistentUuid": "c98f7a90-83fe-4ba4-8652-bb2f94af609a",
+          "width": 52,
+          "x": 1038,
+          "y": 561,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 52,
+          "keepRatio": true,
+          "layer": "",
+          "name": "SPAWN",
+          "persistentUuid": "81e1d5e9-624c-4923-bd47-73f9af611780",
+          "width": 52,
+          "x": 891,
+          "y": 303,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 52,
+          "keepRatio": true,
+          "layer": "",
+          "name": "SPAWN",
+          "persistentUuid": "af2b3d3f-ff5e-435a-ac91-500f984202f6",
+          "width": 52,
+          "x": 205,
+          "y": 312,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 52,
+          "keepRatio": true,
+          "layer": "",
+          "name": "SPAWN",
+          "persistentUuid": "3d601e2a-061f-4f84-ba29-12f43cf64001",
+          "width": 52,
+          "x": 303,
+          "y": 118,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 52,
+          "keepRatio": true,
+          "layer": "",
+          "name": "SPAWN",
+          "persistentUuid": "5b723b66-bade-4e01-b5fa-ff2f980f92fa",
+          "width": 52,
+          "x": 1021,
+          "y": 306,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 52,
+          "keepRatio": true,
+          "layer": "",
+          "name": "SPAWN",
+          "persistentUuid": "5e0a647f-cc49-40d7-a473-91af419a8faf",
+          "width": 54,
+          "x": 813,
+          "y": 154,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 52,
+          "keepRatio": true,
+          "layer": "",
+          "name": "SPAWN",
+          "persistentUuid": "a64e1247-33f0-449f-a9b1-d7c473f1d8b3",
+          "width": 52,
+          "x": 214,
+          "y": 437,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 52,
+          "keepRatio": true,
+          "layer": "",
+          "name": "SPAWN",
+          "persistentUuid": "a21dbbe5-ad34-4536-bdee-e76dd9e389ed",
+          "width": 52,
+          "x": 385,
+          "y": 304,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 52,
+          "keepRatio": true,
+          "layer": "",
+          "name": "SPAWN",
+          "persistentUuid": "569ca688-59de-48d4-97ff-30b07f55aaf2",
+          "width": 52,
+          "x": 206,
+          "y": 568,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 52,
+          "keepRatio": true,
+          "layer": "",
+          "name": "SPAWN",
+          "persistentUuid": "f73a52f5-1b69-4de2-981a-9f269fb457cf",
+          "width": 52,
+          "x": 572,
+          "y": 427,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 52,
+          "keepRatio": true,
+          "layer": "",
+          "name": "SPAWN",
+          "persistentUuid": "c1297721-bd81-4eba-85dc-d81227883c3a",
+          "width": 52,
+          "x": 578,
+          "y": 557,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 52,
+          "keepRatio": true,
+          "layer": "",
+          "name": "SPAWN",
+          "persistentUuid": "f0680ce1-188b-4788-8c86-8fea05d81a6b",
+          "width": 52,
+          "x": 565,
+          "y": 305,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 52,
+          "keepRatio": true,
+          "layer": "",
+          "name": "SPAWN",
+          "persistentUuid": "21956755-274e-4188-9337-2f94591d516e",
+          "width": 52,
+          "x": 1015,
+          "y": 425,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 52,
+          "keepRatio": true,
+          "layer": "",
+          "name": "SPAWN",
+          "persistentUuid": "8e482424-2a0d-4041-99e1-c9b7e52eebd6",
+          "width": 52,
+          "x": 623,
+          "y": 202,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 52,
+          "keepRatio": true,
+          "layer": "",
+          "name": "SPAWN",
+          "persistentUuid": "7c7af317-34ef-43c4-8803-e89f4989ddec",
+          "width": 52,
+          "x": 655,
+          "y": 664,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 52,
+          "keepRatio": true,
+          "layer": "",
+          "name": "SPAWN",
+          "persistentUuid": "e7ef7441-6c3f-4684-9caf-9de238b0786f",
+          "width": 52,
+          "x": 1170,
+          "y": 424,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 52,
+          "keepRatio": true,
+          "layer": "",
+          "name": "SPAWN",
+          "persistentUuid": "427a96ce-8c4c-4d36-9e5b-c23609dd13c2",
+          "width": 52,
+          "x": 1171,
+          "y": 299,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 52,
+          "keepRatio": true,
+          "layer": "",
+          "name": "SPAWN",
+          "persistentUuid": "de154339-aba6-4cf7-85ad-3046f08a3c87",
+          "width": 52,
+          "x": 734,
+          "y": 559,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 52,
+          "keepRatio": true,
+          "layer": "",
+          "name": "SPAWN",
+          "persistentUuid": "78483b3e-de9c-4c87-84c4-67cc45c8adc9",
+          "width": 52,
+          "x": 734,
+          "y": 303,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 52,
+          "keepRatio": true,
+          "layer": "",
+          "name": "SPAWN",
+          "persistentUuid": "ee1b79d7-eeaa-4cdf-b862-91aa5cb65c98",
+          "width": 52,
+          "x": 727,
+          "y": 433,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 52,
+          "keepRatio": true,
+          "layer": "",
+          "name": "SPAWN",
+          "persistentUuid": "8bc00800-29b8-45ca-a370-92e3a939fa50",
+          "width": 52,
+          "x": 1164,
+          "y": 561,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 52,
+          "keepRatio": true,
+          "layer": "",
+          "name": "SPAWN",
+          "persistentUuid": "f4120623-752b-4b6a-95b4-99c0d7548e7d",
+          "width": 52,
+          "x": 889,
+          "y": 561,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 52,
+          "keepRatio": true,
+          "layer": "",
+          "name": "SPAWN",
+          "persistentUuid": "b132efa4-47d2-4f5f-85a9-888a08868ce0",
+          "width": 52,
+          "x": 394,
+          "y": 428,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 52,
+          "keepRatio": true,
+          "layer": "",
+          "name": "SPAWN",
+          "persistentUuid": "331232e0-48ef-455c-8387-451e90428365",
+          "width": 52,
+          "x": 709,
+          "y": 74,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 52,
+          "keepRatio": true,
+          "layer": "",
+          "name": "SPAWN",
+          "persistentUuid": "86bf74fc-4814-4625-9bbf-6a77204ee423",
+          "width": 52,
+          "x": 418,
+          "y": 566,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 52,
+          "keepRatio": true,
+          "layer": "",
+          "name": "SPAWN",
+          "persistentUuid": "4e199e4c-ab8e-4aca-bbe6-724f79e76f06",
+          "width": 52,
+          "x": 490,
+          "y": 145,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1.04,
+          "height": 52,
+          "keepRatio": true,
+          "layer": "",
+          "name": "SPAWN",
+          "persistentUuid": "fa4531ad-84b8-4ebb-bc87-7154b52c3f61",
+          "width": 49.92000000000001,
+          "x": 20,
+          "y": 310,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 52,
+          "keepRatio": true,
+          "layer": "",
+          "name": "SPAWN",
+          "persistentUuid": "a9148e24-a1b9-49b0-a057-9400f7a19687",
+          "width": 52,
+          "x": 891,
+          "y": 426,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 52,
+          "keepRatio": true,
+          "layer": "",
+          "name": "SPAWN",
+          "persistentUuid": "9ac111f6-6d13-4bc6-bb6e-142984f89428",
+          "width": 52,
+          "x": 25,
+          "y": 452,
           "zOrder": 3,
           "numberProperties": [],
           "stringProperties": [],
@@ -13041,12 +13714,12 @@
           "customSize": false,
           "height": 0,
           "keepRatio": true,
-          "layer": "",
-          "name": "SPAWN2",
-          "persistentUuid": "8820988f-2848-4eab-9a41-6128520af93d",
+          "layer": "info dicari",
+          "name": "slime_all",
+          "persistentUuid": "56b467cc-ebe0-4ea2-90f3-68e0a6380973",
           "width": 0,
-          "x": 291,
-          "y": 535,
+          "x": 643,
+          "y": 300,
           "zOrder": 4,
           "numberProperties": [],
           "stringProperties": [],
@@ -13054,15 +13727,16 @@
         },
         {
           "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "SPAWN3",
-          "persistentUuid": "ed2ca451-bd6c-462a-82f3-fdd8c9b869c8",
-          "width": 0,
-          "x": 157,
-          "y": 391,
+          "customSize": true,
+          "depth": 0,
+          "height": 720,
+          "layer": "info dicari",
+          "name": "click",
+          "opacity": 0,
+          "persistentUuid": "2bb2e849-5ae2-40ad-8c94-f26b80f48fb7",
+          "width": 1280,
+          "x": 0,
+          "y": 0,
           "zOrder": 5,
           "numberProperties": [],
           "stringProperties": [],
@@ -13074,11 +13748,11 @@
           "height": 0,
           "keepRatio": true,
           "layer": "",
-          "name": "SPAWN4",
-          "persistentUuid": "3f9d7c5a-aeed-4b29-b847-787ad450a658",
+          "name": "hint",
+          "persistentUuid": "8cae8f7a-c018-4468-8fc3-72e4c37bfb63",
           "width": 0,
-          "x": 258,
-          "y": 399,
+          "x": 985,
+          "y": 42,
           "zOrder": 6,
           "numberProperties": [],
           "stringProperties": [],
@@ -13090,11 +13764,11 @@
           "height": 0,
           "keepRatio": true,
           "layer": "",
-          "name": "SPAWN5",
-          "persistentUuid": "a24aba34-f624-4050-bbf7-f8ae3261d015",
+          "name": "timer",
+          "persistentUuid": "bf25e5b8-5240-4cb5-998c-71aace3cd36b",
           "width": 0,
-          "x": 388,
-          "y": 486,
+          "x": 50,
+          "y": 23,
           "zOrder": 7,
           "numberProperties": [],
           "stringProperties": [],
@@ -13106,11 +13780,11 @@
           "height": 0,
           "keepRatio": true,
           "layer": "",
-          "name": "SPAWN6",
-          "persistentUuid": "cdd896bd-9249-4bc2-96d9-ea2c945d5f89",
+          "name": "timertext",
+          "persistentUuid": "2026ef73-b739-4979-a691-6d138ffa160a",
           "width": 0,
-          "x": 388,
-          "y": 395,
+          "x": 67,
+          "y": 53,
           "zOrder": 8,
           "numberProperties": [],
           "stringProperties": [],
@@ -13120,13 +13794,12 @@
           "angle": 0,
           "customSize": false,
           "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "SPAWN7",
-          "persistentUuid": "6ba48f09-2b07-4b63-85f8-ac9122800e2a",
+          "layer": "salah",
+          "name": "salah",
+          "persistentUuid": "b5bcd6b2-681e-44a2-b75c-6f3db2846556",
           "width": 0,
-          "x": 483,
-          "y": 567,
+          "x": 0,
+          "y": 0,
           "zOrder": 9,
           "numberProperties": [],
           "stringProperties": [],
@@ -13137,12 +13810,12 @@
           "customSize": false,
           "height": 0,
           "keepRatio": true,
-          "layer": "",
-          "name": "SPAWN8",
-          "persistentUuid": "7514f858-c756-4f5c-9d9a-e403f387889b",
+          "layer": "benar",
+          "name": "latar_menang",
+          "persistentUuid": "01bbbc40-78c9-4ec4-aab1-3138afaaec21",
           "width": 0,
-          "x": 369,
-          "y": 613,
+          "x": 106,
+          "y": 36,
           "zOrder": 10,
           "numberProperties": [],
           "stringProperties": [],
@@ -13150,15 +13823,33 @@
         },
         {
           "angle": 0,
-          "customSize": false,
-          "height": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 226,
           "keepRatio": true,
-          "layer": "",
-          "name": "SPAWN9",
-          "persistentUuid": "06401a38-7c75-4025-8fd4-2b1957e9d930",
-          "width": 0,
-          "x": 486,
-          "y": 462,
+          "layer": "benar",
+          "name": "poster_buronan",
+          "persistentUuid": "dbd08b38-399d-48c0-b00a-683bb8f0f26f",
+          "width": 186,
+          "x": 957,
+          "y": 269,
+          "zOrder": 11,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 226,
+          "keepRatio": true,
+          "layer": "benar",
+          "name": "poster_buronan",
+          "persistentUuid": "b065fe59-0158-410c-b185-453e9267f3f2",
+          "width": 186,
+          "x": 170,
+          "y": 269,
           "zOrder": 11,
           "numberProperties": [],
           "stringProperties": [],
@@ -13169,12 +13860,12 @@
           "customSize": false,
           "height": 0,
           "keepRatio": true,
-          "layer": "",
-          "name": "SPAWN10",
-          "persistentUuid": "a916893b-cd4b-46ef-a694-d1ae2458eea7",
+          "layer": "benar",
+          "name": "ulang",
+          "persistentUuid": "a1503290-4802-4c9c-92c2-40e1e822421d",
           "width": 0,
-          "x": 564,
-          "y": 386,
+          "x": 495,
+          "y": 527,
           "zOrder": 12,
           "numberProperties": [],
           "stringProperties": [],
@@ -13185,12 +13876,12 @@
           "customSize": false,
           "height": 0,
           "keepRatio": true,
-          "layer": "",
-          "name": "SPAWN11",
-          "persistentUuid": "f592d7d7-1e29-4864-a65e-271e9139419a",
+          "layer": "benar",
+          "name": "menu",
+          "persistentUuid": "ac734343-1c5b-4664-879f-5fea9ebdc5cc",
           "width": 0,
-          "x": 686,
-          "y": 390,
+          "x": 632,
+          "y": 527,
           "zOrder": 13,
           "numberProperties": [],
           "stringProperties": [],
@@ -13201,12 +13892,12 @@
           "customSize": false,
           "height": 0,
           "keepRatio": true,
-          "layer": "",
-          "name": "SPAWN12",
-          "persistentUuid": "44484ba7-da56-4977-8dd7-8b4e50c0b51a",
+          "layer": "benar",
+          "name": "berhasil",
+          "persistentUuid": "ffe8c610-3a31-4c0d-b75c-487b0397c435",
           "width": 0,
-          "x": 711,
-          "y": 468,
+          "x": 526,
+          "y": 97,
           "zOrder": 14,
           "numberProperties": [],
           "stringProperties": [],
@@ -13217,12 +13908,12 @@
           "customSize": false,
           "height": 0,
           "keepRatio": true,
-          "layer": "",
-          "name": "SPAWN13",
-          "persistentUuid": "3de2ac49-fd5d-4617-b459-fb579669495e",
+          "layer": "benar",
+          "name": "selamatkamuhebat",
+          "persistentUuid": "cb58334d-ea1b-40f4-97fd-bd30a839176e",
           "width": 0,
-          "x": 773,
-          "y": 395,
+          "x": 325,
+          "y": 149,
           "zOrder": 15,
           "numberProperties": [],
           "stringProperties": [],
@@ -13233,12 +13924,12 @@
           "customSize": false,
           "height": 0,
           "keepRatio": true,
-          "layer": "",
-          "name": "SPAWN14",
-          "persistentUuid": "c4a0345c-0e91-4aae-aef3-3e171464e300",
+          "layer": "benar",
+          "name": "bintng",
+          "persistentUuid": "aa532c63-007c-4d1c-8321-fdf306681e41",
           "width": 0,
-          "x": 595,
-          "y": 486,
+          "x": 723,
+          "y": 197,
           "zOrder": 16,
           "numberProperties": [],
           "stringProperties": [],
@@ -13249,13 +13940,13 @@
           "customSize": false,
           "height": 0,
           "keepRatio": true,
-          "layer": "",
-          "name": "SPAWN15",
-          "persistentUuid": "cbe12557-6294-456c-a30e-97fd7269fe2c",
+          "layer": "benar",
+          "name": "bintng",
+          "persistentUuid": "40799a2f-ddbd-4f40-a406-87d25adfcccc",
           "width": 0,
-          "x": 678,
-          "y": 574,
-          "zOrder": 17,
+          "x": 539,
+          "y": 197,
+          "zOrder": 16,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -13265,237 +13956,13 @@
           "customSize": false,
           "height": 0,
           "keepRatio": true,
-          "layer": "",
-          "name": "SPAWN16",
-          "persistentUuid": "bb40c851-537c-4728-ba08-55bef52e658e",
+          "layer": "benar",
+          "name": "bintng",
+          "persistentUuid": "d76b295d-68fe-47fb-81d7-a02d42bd6f7d",
           "width": 0,
-          "x": 918,
-          "y": 448,
-          "zOrder": 18,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "SPAWN17",
-          "persistentUuid": "a2b062c7-4f7b-477d-a1b7-659aeae8ed5d",
-          "width": 0,
-          "x": 1146,
-          "y": 423,
-          "zOrder": 19,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "SPAWN18",
-          "persistentUuid": "526579a4-0540-438b-b16b-3253ba7dd078",
-          "width": 0,
-          "x": 1068,
-          "y": 565,
-          "zOrder": 20,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "SPAWN19",
-          "persistentUuid": "b73e14f0-457a-482d-949c-0b038807802f",
-          "width": 0,
-          "x": 883,
-          "y": 565,
-          "zOrder": 21,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "SPAWN20",
-          "persistentUuid": "2f72ad71-860a-4884-a420-1f6e4f040781",
-          "width": 0,
-          "x": 1181,
-          "y": 529,
-          "zOrder": 22,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "SPAWN21",
-          "persistentUuid": "aa51b91a-f05d-4e4c-8521-1f2fd66064b8",
-          "width": 0,
-          "x": 579,
-          "y": 619,
-          "zOrder": 23,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "SPAWN22",
-          "persistentUuid": "be382b65-9568-4c32-9911-15e5ec8a4118",
-          "width": 0,
-          "x": 129,
-          "y": 493,
-          "zOrder": 24,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "SPAWN23",
-          "persistentUuid": "f6f34aab-1cbb-493b-b05d-f12e57a432dc",
-          "width": 0,
-          "x": 59,
-          "y": 617,
-          "zOrder": 25,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "SPAWN24",
-          "persistentUuid": "ec3662cf-723a-4a58-b2a4-21fddb394cc5",
-          "width": 0,
-          "x": 1051,
-          "y": 419,
-          "zOrder": 26,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "SPAWN25",
-          "persistentUuid": "e0c1494e-b674-4eb8-9421-3390d5056173",
-          "width": 0,
-          "x": 783,
-          "y": 616,
-          "zOrder": 27,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "SPAWN26",
-          "persistentUuid": "a9184fea-51c4-487f-814f-ae1ca0e5a003",
-          "width": 0,
-          "x": 804,
-          "y": 501,
-          "zOrder": 28,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "SPAWN27",
-          "persistentUuid": "d2142b63-e99b-41d7-8c14-ec181d4c854d",
-          "width": 0,
-          "x": 940,
-          "y": 638,
-          "zOrder": 29,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "SPAWN28",
-          "persistentUuid": "16cb32ce-e37f-4947-90c5-e9f9de6a269c",
-          "width": 0,
-          "x": 261,
-          "y": 636,
-          "zOrder": 30,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "SPAWN29",
-          "persistentUuid": "cfa93b51-24d7-463b-99ce-286e8e5b2591",
-          "width": 0,
-          "x": 1077,
-          "y": 333,
-          "zOrder": 31,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "SPAWN30",
-          "persistentUuid": "fda3c163-edc5-404a-b19d-d1cae1d4219f",
-          "width": 0,
-          "x": 702,
-          "y": 288,
-          "zOrder": 32,
+          "x": 631,
+          "y": 197,
+          "zOrder": 16,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -13628,7 +14095,13 @@
           "name": "SPAWN",
           "type": "Sprite",
           "updateIfNotVisible": false,
-          "variables": [],
+          "variables": [
+            {
+              "name": "is_wanted",
+              "type": "number",
+              "value": 0
+            }
+          ],
           "effects": [],
           "behaviors": [],
           "animations": [
@@ -13686,12 +14159,23 @@
         {
           "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "",
-          "name": "SPAWN2",
+          "name": "click",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
           "effects": [],
-          "behaviors": [],
+          "behaviors": [
+            {
+              "name": "ButtonFSM",
+              "type": "ButtonStates::ButtonFSM",
+              "ShouldCheckHovering": true,
+              "State": "Idle",
+              "TouchId": 0,
+              "TouchIsInside": false,
+              "MouseIsInside": false,
+              "Index": 2.0247e-320
+            }
+          ],
           "animations": [
             {
               "name": "NewSprite",
@@ -13704,7 +14188,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "NewSprite4",
+                      "image": "NewSprite33",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -13747,7 +14231,7 @@
         {
           "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "",
-          "name": "SPAWN3",
+          "name": "hint",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -13755,17 +14239,16 @@
           "behaviors": [],
           "animations": [
             {
-              "name": "NewSprite",
+              "name": "",
               "useMultipleDirections": false,
               "directions": [
                 {
                   "looping": false,
-                  "metadata": "{\"pskl\":{}}",
                   "timeBetweenFrames": 0.08,
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "NewSprite5",
+                      "image": "Group 19.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -13785,16 +14268,16 @@
                             "y": 0
                           },
                           {
-                            "x": 64,
+                            "x": 279,
                             "y": 0
                           },
                           {
-                            "x": 64,
-                            "y": 64
+                            "x": 279,
+                            "y": 155
                           },
                           {
                             "x": 0,
-                            "y": 64
+                            "y": 155
                           }
                         ]
                       ]
@@ -13808,7 +14291,7 @@
         {
           "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "",
-          "name": "SPAWN4",
+          "name": "timer",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -13816,17 +14299,16 @@
           "behaviors": [],
           "animations": [
             {
-              "name": "NewSprite",
+              "name": "",
               "useMultipleDirections": false,
               "directions": [
                 {
                   "looping": false,
-                  "metadata": "{\"pskl\":{}}",
                   "timeBetweenFrames": 0.08,
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "NewSprite6",
+                      "image": "Group (25)3.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -13846,16 +14328,124 @@
                             "y": 0
                           },
                           {
-                            "x": 64,
+                            "x": 82,
                             "y": 0
                           },
                           {
-                            "x": 64,
-                            "y": 64
+                            "x": 82,
+                            "y": 96
                           },
                           {
                             "x": 0,
-                            "y": 64
+                            "y": 96
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "bold": true,
+          "italic": false,
+          "name": "timertext",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "",
+          "font": "",
+          "textAlignment": "right",
+          "characterSize": 40,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          },
+          "content": {
+            "bold": true,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "",
+            "font": "",
+            "textAlignment": "right",
+            "verticalTextAlignment": "top",
+            "characterSize": 40,
+            "lineHeight": 0,
+            "color": "0;0;0"
+          }
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "go",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "Tween",
+              "type": "Tween::TweenBehavior"
+            }
+          ],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "GO.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 257,
+                            "y": 0
+                          },
+                          {
+                            "x": 257,
+                            "y": 92
+                          },
+                          {
+                            "x": 0,
+                            "y": 92
                           }
                         ]
                       ]
@@ -13869,7 +14459,7 @@
         {
           "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "",
-          "name": "SPAWN5",
+          "name": "salah",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -13877,17 +14467,16 @@
           "behaviors": [],
           "animations": [
             {
-              "name": "NewSprite",
+              "name": "",
               "useMultipleDirections": false,
               "directions": [
                 {
                   "looping": false,
-                  "metadata": "{\"pskl\":{}}",
                   "timeBetweenFrames": 0.08,
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "NewSprite7",
+                      "image": "Rectangle 3.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -13907,16 +14496,16 @@
                             "y": 0
                           },
                           {
-                            "x": 64,
+                            "x": 1280,
                             "y": 0
                           },
                           {
-                            "x": 64,
-                            "y": 64
+                            "x": 1280,
+                            "y": 720
                           },
                           {
                             "x": 0,
-                            "y": 64
+                            "y": 720
                           }
                         ]
                       ]
@@ -13930,7 +14519,7 @@
         {
           "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "",
-          "name": "SPAWN6",
+          "name": "latar_menang",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -13938,17 +14527,16 @@
           "behaviors": [],
           "animations": [
             {
-              "name": "NewSprite",
+              "name": "",
               "useMultipleDirections": false,
               "directions": [
                 {
                   "looping": false,
-                  "metadata": "{\"pskl\":{}}",
                   "timeBetweenFrames": 0.08,
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "NewSprite8",
+                      "image": "Group 14.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -13968,16 +14556,16 @@
                             "y": 0
                           },
                           {
-                            "x": 64,
+                            "x": 1104,
                             "y": 0
                           },
                           {
-                            "x": 64,
-                            "y": 64
+                            "x": 1104,
+                            "y": 622
                           },
                           {
                             "x": 0,
-                            "y": 64
+                            "y": 622
                           }
                         ]
                       ]
@@ -13991,7 +14579,7 @@
         {
           "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "",
-          "name": "SPAWN7",
+          "name": "menu",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -13999,17 +14587,16 @@
           "behaviors": [],
           "animations": [
             {
-              "name": "NewSprite",
+              "name": "",
               "useMultipleDirections": false,
               "directions": [
                 {
                   "looping": false,
-                  "metadata": "{\"pskl\":{}}",
                   "timeBetweenFrames": 0.08,
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "NewSprite9",
+                      "image": "Group 5.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -14029,16 +14616,16 @@
                             "y": 0
                           },
                           {
-                            "x": 64,
+                            "x": 203,
                             "y": 0
                           },
                           {
-                            "x": 64,
-                            "y": 64
+                            "x": 203,
+                            "y": 74
                           },
                           {
                             "x": 0,
-                            "y": 64
+                            "y": 74
                           }
                         ]
                       ]
@@ -14052,7 +14639,7 @@
         {
           "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "",
-          "name": "SPAWN8",
+          "name": "ulang",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -14060,17 +14647,16 @@
           "behaviors": [],
           "animations": [
             {
-              "name": "NewSprite",
+              "name": "",
               "useMultipleDirections": false,
               "directions": [
                 {
                   "looping": false,
-                  "metadata": "{\"pskl\":{}}",
                   "timeBetweenFrames": 0.08,
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "NewSprite10",
+                      "image": "Group (24)3.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -14090,16 +14676,16 @@
                             "y": 0
                           },
                           {
-                            "x": 64,
+                            "x": 80,
                             "y": 0
                           },
                           {
-                            "x": 64,
-                            "y": 64
+                            "x": 80,
+                            "y": 71
                           },
                           {
                             "x": 0,
-                            "y": 64
+                            "y": 71
                           }
                         ]
                       ]
@@ -14113,7 +14699,7 @@
         {
           "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "",
-          "name": "SPAWN9",
+          "name": "waktu_habis",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -14121,17 +14707,16 @@
           "behaviors": [],
           "animations": [
             {
-              "name": "NewSprite",
+              "name": "",
               "useMultipleDirections": false,
               "directions": [
                 {
                   "looping": false,
-                  "metadata": "{\"pskl\":{}}",
                   "timeBetweenFrames": 0.08,
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "NewSprite11",
+                      "image": "WAKTU HABIS.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -14151,16 +14736,16 @@
                             "y": 0
                           },
                           {
-                            "x": 64,
+                            "x": 364,
                             "y": 0
                           },
                           {
-                            "x": 64,
-                            "y": 64
+                            "x": 364,
+                            "y": 26
                           },
                           {
                             "x": 0,
-                            "y": 64
+                            "y": 26
                           }
                         ]
                       ]
@@ -14174,7 +14759,7 @@
         {
           "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "",
-          "name": "SPAWN10",
+          "name": "cobalagi",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -14182,17 +14767,16 @@
           "behaviors": [],
           "animations": [
             {
-              "name": "NewSprite",
+              "name": "",
               "useMultipleDirections": false,
               "directions": [
                 {
                   "looping": false,
-                  "metadata": "{\"pskl\":{}}",
                   "timeBetweenFrames": 0.08,
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "NewSprite12",
+                      "image": "COBA LAGI.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -14212,16 +14796,16 @@
                             "y": 0
                           },
                           {
-                            "x": 64,
+                            "x": 287,
                             "y": 0
                           },
                           {
-                            "x": 64,
-                            "y": 64
+                            "x": 287,
+                            "y": 26
                           },
                           {
                             "x": 0,
-                            "y": 64
+                            "y": 26
                           }
                         ]
                       ]
@@ -14235,7 +14819,7 @@
         {
           "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "",
-          "name": "SPAWN11",
+          "name": "berhasil",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -14243,17 +14827,16 @@
           "behaviors": [],
           "animations": [
             {
-              "name": "NewSprite",
+              "name": "",
               "useMultipleDirections": false,
               "directions": [
                 {
                   "looping": false,
-                  "metadata": "{\"pskl\":{}}",
                   "timeBetweenFrames": 0.08,
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "NewSprite13",
+                      "image": "BERHASIL.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -14273,16 +14856,16 @@
                             "y": 0
                           },
                           {
-                            "x": 64,
+                            "x": 266,
                             "y": 0
                           },
                           {
-                            "x": 64,
-                            "y": 64
+                            "x": 266,
+                            "y": 26
                           },
                           {
                             "x": 0,
-                            "y": 64
+                            "y": 26
                           }
                         ]
                       ]
@@ -14296,7 +14879,7 @@
         {
           "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "",
-          "name": "SPAWN12",
+          "name": "selamatkamuhebat",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -14304,17 +14887,16 @@
           "behaviors": [],
           "animations": [
             {
-              "name": "NewSprite",
+              "name": "",
               "useMultipleDirections": false,
               "directions": [
                 {
                   "looping": false,
-                  "metadata": "{\"pskl\":{}}",
                   "timeBetweenFrames": 0.08,
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "NewSprite14",
+                      "image": "SELAMAT,KAMU HEBAT!.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -14334,16 +14916,16 @@
                             "y": 0
                           },
                           {
-                            "x": 64,
+                            "x": 650,
                             "y": 0
                           },
                           {
-                            "x": 64,
-                            "y": 64
+                            "x": 650,
+                            "y": 29
                           },
                           {
                             "x": 0,
-                            "y": 64
+                            "y": 29
                           }
                         ]
                       ]
@@ -14357,7 +14939,7 @@
         {
           "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "",
-          "name": "SPAWN13",
+          "name": "bintng",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -14365,17 +14947,16 @@
           "behaviors": [],
           "animations": [
             {
-              "name": "NewSprite",
+              "name": "",
               "useMultipleDirections": false,
               "directions": [
                 {
                   "looping": false,
-                  "metadata": "{\"pskl\":{}}",
                   "timeBetweenFrames": 0.08,
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "NewSprite15",
+                      "image": "Star 3.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -14395,1053 +14976,16 @@
                             "y": 0
                           },
                           {
-                            "x": 64,
+                            "x": 53,
                             "y": 0
                           },
                           {
-                            "x": 64,
-                            "y": 64
+                            "x": 53,
+                            "y": 51
                           },
                           {
                             "x": 0,
-                            "y": 64
-                          }
-                        ]
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "adaptCollisionMaskAutomatically": true,
-          "assetStoreId": "",
-          "name": "SPAWN14",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "effects": [],
-          "behaviors": [],
-          "animations": [
-            {
-              "name": "NewSprite",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "metadata": "{\"pskl\":{}}",
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "NewSprite16",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 0,
-                            "y": 0
-                          },
-                          {
-                            "x": 64,
-                            "y": 0
-                          },
-                          {
-                            "x": 64,
-                            "y": 64
-                          },
-                          {
-                            "x": 0,
-                            "y": 64
-                          }
-                        ]
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "adaptCollisionMaskAutomatically": true,
-          "assetStoreId": "",
-          "name": "SPAWN15",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "effects": [],
-          "behaviors": [],
-          "animations": [
-            {
-              "name": "NewSprite",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "metadata": "{\"pskl\":{}}",
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "NewSprite17",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 0,
-                            "y": 0
-                          },
-                          {
-                            "x": 64,
-                            "y": 0
-                          },
-                          {
-                            "x": 64,
-                            "y": 64
-                          },
-                          {
-                            "x": 0,
-                            "y": 64
-                          }
-                        ]
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "adaptCollisionMaskAutomatically": true,
-          "assetStoreId": "",
-          "name": "SPAWN16",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "effects": [],
-          "behaviors": [],
-          "animations": [
-            {
-              "name": "NewSprite",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "metadata": "{\"pskl\":{}}",
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "NewSprite18",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 0,
-                            "y": 0
-                          },
-                          {
-                            "x": 64,
-                            "y": 0
-                          },
-                          {
-                            "x": 64,
-                            "y": 64
-                          },
-                          {
-                            "x": 0,
-                            "y": 64
-                          }
-                        ]
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "adaptCollisionMaskAutomatically": true,
-          "assetStoreId": "",
-          "name": "SPAWN17",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "effects": [],
-          "behaviors": [],
-          "animations": [
-            {
-              "name": "NewSprite",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "metadata": "{\"pskl\":{}}",
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "NewSprite19",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 0,
-                            "y": 0
-                          },
-                          {
-                            "x": 64,
-                            "y": 0
-                          },
-                          {
-                            "x": 64,
-                            "y": 64
-                          },
-                          {
-                            "x": 0,
-                            "y": 64
-                          }
-                        ]
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "adaptCollisionMaskAutomatically": true,
-          "assetStoreId": "",
-          "name": "SPAWN18",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "effects": [],
-          "behaviors": [],
-          "animations": [
-            {
-              "name": "NewSprite",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "metadata": "{\"pskl\":{}}",
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "NewSprite20",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 0,
-                            "y": 0
-                          },
-                          {
-                            "x": 64,
-                            "y": 0
-                          },
-                          {
-                            "x": 64,
-                            "y": 64
-                          },
-                          {
-                            "x": 0,
-                            "y": 64
-                          }
-                        ]
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "adaptCollisionMaskAutomatically": true,
-          "assetStoreId": "",
-          "name": "SPAWN19",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "effects": [],
-          "behaviors": [],
-          "animations": [
-            {
-              "name": "NewSprite",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "metadata": "{\"pskl\":{}}",
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "NewSprite21",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 0,
-                            "y": 0
-                          },
-                          {
-                            "x": 64,
-                            "y": 0
-                          },
-                          {
-                            "x": 64,
-                            "y": 64
-                          },
-                          {
-                            "x": 0,
-                            "y": 64
-                          }
-                        ]
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "adaptCollisionMaskAutomatically": true,
-          "assetStoreId": "",
-          "name": "SPAWN20",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "effects": [],
-          "behaviors": [],
-          "animations": [
-            {
-              "name": "NewSprite",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "metadata": "{\"pskl\":{}}",
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "NewSprite22",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 0,
-                            "y": 0
-                          },
-                          {
-                            "x": 64,
-                            "y": 0
-                          },
-                          {
-                            "x": 64,
-                            "y": 64
-                          },
-                          {
-                            "x": 0,
-                            "y": 64
-                          }
-                        ]
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "adaptCollisionMaskAutomatically": true,
-          "assetStoreId": "",
-          "name": "SPAWN21",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "effects": [],
-          "behaviors": [],
-          "animations": [
-            {
-              "name": "NewSprite",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "metadata": "{\"pskl\":{}}",
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "NewSprite23",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 0,
-                            "y": 0
-                          },
-                          {
-                            "x": 64,
-                            "y": 0
-                          },
-                          {
-                            "x": 64,
-                            "y": 64
-                          },
-                          {
-                            "x": 0,
-                            "y": 64
-                          }
-                        ]
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "adaptCollisionMaskAutomatically": true,
-          "assetStoreId": "",
-          "name": "SPAWN22",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "effects": [],
-          "behaviors": [],
-          "animations": [
-            {
-              "name": "NewSprite",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "metadata": "{\"pskl\":{}}",
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "NewSprite24",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 0,
-                            "y": 0
-                          },
-                          {
-                            "x": 64,
-                            "y": 0
-                          },
-                          {
-                            "x": 64,
-                            "y": 64
-                          },
-                          {
-                            "x": 0,
-                            "y": 64
-                          }
-                        ]
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "adaptCollisionMaskAutomatically": true,
-          "assetStoreId": "",
-          "name": "SPAWN23",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "effects": [],
-          "behaviors": [],
-          "animations": [
-            {
-              "name": "NewSprite",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "metadata": "{\"pskl\":{}}",
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "NewSprite25",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 0,
-                            "y": 0
-                          },
-                          {
-                            "x": 64,
-                            "y": 0
-                          },
-                          {
-                            "x": 64,
-                            "y": 64
-                          },
-                          {
-                            "x": 0,
-                            "y": 64
-                          }
-                        ]
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "adaptCollisionMaskAutomatically": true,
-          "assetStoreId": "",
-          "name": "SPAWN24",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "effects": [],
-          "behaviors": [],
-          "animations": [
-            {
-              "name": "NewSprite",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "metadata": "{\"pskl\":{}}",
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "NewSprite26",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 0,
-                            "y": 0
-                          },
-                          {
-                            "x": 64,
-                            "y": 0
-                          },
-                          {
-                            "x": 64,
-                            "y": 64
-                          },
-                          {
-                            "x": 0,
-                            "y": 64
-                          }
-                        ]
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "adaptCollisionMaskAutomatically": true,
-          "assetStoreId": "",
-          "name": "SPAWN25",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "effects": [],
-          "behaviors": [],
-          "animations": [
-            {
-              "name": "NewSprite",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "metadata": "{\"pskl\":{}}",
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "NewSprite27",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 0,
-                            "y": 0
-                          },
-                          {
-                            "x": 64,
-                            "y": 0
-                          },
-                          {
-                            "x": 64,
-                            "y": 64
-                          },
-                          {
-                            "x": 0,
-                            "y": 64
-                          }
-                        ]
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "adaptCollisionMaskAutomatically": true,
-          "assetStoreId": "",
-          "name": "SPAWN26",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "effects": [],
-          "behaviors": [],
-          "animations": [
-            {
-              "name": "NewSprite",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "metadata": "{\"pskl\":{}}",
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "NewSprite28",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 0,
-                            "y": 0
-                          },
-                          {
-                            "x": 64,
-                            "y": 0
-                          },
-                          {
-                            "x": 64,
-                            "y": 64
-                          },
-                          {
-                            "x": 0,
-                            "y": 64
-                          }
-                        ]
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "adaptCollisionMaskAutomatically": true,
-          "assetStoreId": "",
-          "name": "SPAWN27",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "effects": [],
-          "behaviors": [],
-          "animations": [
-            {
-              "name": "NewSprite",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "metadata": "{\"pskl\":{}}",
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "NewSprite29",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 0,
-                            "y": 0
-                          },
-                          {
-                            "x": 64,
-                            "y": 0
-                          },
-                          {
-                            "x": 64,
-                            "y": 64
-                          },
-                          {
-                            "x": 0,
-                            "y": 64
-                          }
-                        ]
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "adaptCollisionMaskAutomatically": true,
-          "assetStoreId": "",
-          "name": "SPAWN28",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "effects": [],
-          "behaviors": [],
-          "animations": [
-            {
-              "name": "NewSprite",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "metadata": "{\"pskl\":{}}",
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "NewSprite30",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 0,
-                            "y": 0
-                          },
-                          {
-                            "x": 64,
-                            "y": 0
-                          },
-                          {
-                            "x": 64,
-                            "y": 64
-                          },
-                          {
-                            "x": 0,
-                            "y": 64
-                          }
-                        ]
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "adaptCollisionMaskAutomatically": true,
-          "assetStoreId": "",
-          "name": "SPAWN29",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "effects": [],
-          "behaviors": [],
-          "animations": [
-            {
-              "name": "NewSprite",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "metadata": "{\"pskl\":{}}",
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "NewSprite31",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 0,
-                            "y": 0
-                          },
-                          {
-                            "x": 64,
-                            "y": 0
-                          },
-                          {
-                            "x": 64,
-                            "y": 64
-                          },
-                          {
-                            "x": 0,
-                            "y": 64
-                          }
-                        ]
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "adaptCollisionMaskAutomatically": true,
-          "assetStoreId": "",
-          "name": "SPAWN30",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "effects": [],
-          "behaviors": [],
-          "animations": [
-            {
-              "name": "NewSprite",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "metadata": "{\"pskl\":{}}",
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "NewSprite32",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 0,
-                            "y": 0
-                          },
-                          {
-                            "x": 64,
-                            "y": 0
-                          },
-                          {
-                            "x": 64,
-                            "y": 64
-                          },
-                          {
-                            "x": 0,
-                            "y": 64
+                            "y": 51
                           }
                         ]
                       ]
@@ -15466,91 +15010,46 @@
             "objectName": "SPAWN"
           },
           {
-            "objectName": "SPAWN2"
+            "objectName": "timer"
           },
           {
-            "objectName": "SPAWN3"
+            "objectName": "timertext"
           },
           {
-            "objectName": "SPAWN4"
+            "objectName": "click"
           },
           {
-            "objectName": "SPAWN5"
+            "objectName": "hint"
           },
           {
-            "objectName": "SPAWN6"
+            "objectName": "go"
           },
           {
-            "objectName": "SPAWN7"
+            "objectName": "latar_menang"
           },
           {
-            "objectName": "SPAWN8"
+            "objectName": "menu"
           },
           {
-            "objectName": "SPAWN9"
+            "objectName": "ulang"
           },
           {
-            "objectName": "SPAWN10"
+            "objectName": "waktu_habis"
           },
           {
-            "objectName": "SPAWN11"
+            "objectName": "cobalagi"
           },
           {
-            "objectName": "SPAWN12"
+            "objectName": "salah"
           },
           {
-            "objectName": "SPAWN13"
+            "objectName": "berhasil"
           },
           {
-            "objectName": "SPAWN14"
+            "objectName": "selamatkamuhebat"
           },
           {
-            "objectName": "SPAWN15"
-          },
-          {
-            "objectName": "SPAWN16"
-          },
-          {
-            "objectName": "SPAWN17"
-          },
-          {
-            "objectName": "SPAWN18"
-          },
-          {
-            "objectName": "SPAWN19"
-          },
-          {
-            "objectName": "SPAWN20"
-          },
-          {
-            "objectName": "SPAWN21"
-          },
-          {
-            "objectName": "SPAWN22"
-          },
-          {
-            "objectName": "SPAWN23"
-          },
-          {
-            "objectName": "SPAWN24"
-          },
-          {
-            "objectName": "SPAWN25"
-          },
-          {
-            "objectName": "SPAWN26"
-          },
-          {
-            "objectName": "SPAWN27"
-          },
-          {
-            "objectName": "SPAWN28"
-          },
-          {
-            "objectName": "SPAWN29"
-          },
-          {
-            "objectName": "SPAWN30"
+            "objectName": "bintng"
           }
         ]
       },
@@ -15565,6 +15064,7 @@
           "type": "BuiltinCommonInstructions::Group",
           "events": [
             {
+              "folded": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -15576,34 +15076,92 @@
                   ]
                 }
               ],
-              "actions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "wanted",
+                    "=",
+                    "RandomInRange(2, 52)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ShowLayer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"info dicari\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Cache"
+                  },
+                  "parameters": [
+                    "hint"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Cache"
+                  },
+                  "parameters": [
+                    "timer"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Cache"
+                  },
+                  "parameters": [
+                    "timertext"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ActivateBehavior"
+                  },
+                  "parameters": [
+                    "slime_all",
+                    "ButtonFSM",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "timervalue",
+                    "=",
+                    "60"
+                  ]
+                }
+              ],
               "events": [
                 {
-                  "type": "BuiltinCommonInstructions::ForEach",
-                  "object": "SPAWN",
-                  "conditions": [],
-                  "actions": [
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
                     {
                       "type": {
-                        "value": "Create"
+                        "value": "LayerVisible"
                       },
                       "parameters": [
                         "",
-                        "slime_all",
-                        "SPAWN.X()",
-                        "SPAWN.Y()",
-                        ""
+                        "\"info dicari\""
                       ]
-                    },
+                    }
+                  ],
+                  "actions": [
                     {
                       "type": {
-                        "value": "SetNumberObjectVariable"
+                        "value": "Cache"
                       },
                       "parameters": [
-                        "slime_all",
-                        "id",
-                        "=",
-                        "RandomInRange(2,52)"
+                        "SPAWN"
                       ]
                     },
                     {
@@ -15614,1479 +15172,570 @@
                         "slime_all",
                         "Animation",
                         "=",
-                        "slime_all.id"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "Delete"
-                      },
-                      "parameters": [
-                        "SPAWN",
-                        ""
+                        "wanted"
                       ]
                     }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "ButtonStates::ButtonFSM::IsClicked"
+                  },
+                  "parameters": [
+                    "click",
+                    "ButtonFSM",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "HideLayer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"info dicari\""
                   ]
                 },
                 {
-                  "type": "BuiltinCommonInstructions::ForEach",
-                  "object": "SPAWN2",
-                  "conditions": [],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "Create"
-                      },
-                      "parameters": [
-                        "",
-                        "slime_all",
-                        "SPAWN2.X()",
-                        "SPAWN2.Y()",
-                        ""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "SetNumberObjectVariable"
-                      },
-                      "parameters": [
-                        "slime_all",
-                        "id",
-                        "=",
-                        "RandomInRange(2,52)"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "AnimatableCapability::AnimatableBehavior::SetName"
-                      },
-                      "parameters": [
-                        "slime_all",
-                        "Animation",
-                        "=",
-                        "slime_all.id"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "Delete"
-                      },
-                      "parameters": [
-                        "SPAWN2",
-                        ""
-                      ]
-                    }
+                  "type": {
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "click",
+                    ""
                   ]
                 },
                 {
-                  "type": "BuiltinCommonInstructions::ForEach",
-                  "object": "SPAWN3",
-                  "conditions": [],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "Create"
-                      },
-                      "parameters": [
-                        "",
-                        "slime_all",
-                        "SPAWN3.X()",
-                        "SPAWN3.Y()",
-                        ""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "SetNumberObjectVariable"
-                      },
-                      "parameters": [
-                        "slime_all",
-                        "id",
-                        "=",
-                        "RandomInRange(2,52)"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "AnimatableCapability::AnimatableBehavior::SetName"
-                      },
-                      "parameters": [
-                        "slime_all",
-                        "Animation",
-                        "=",
-                        "slime_all.id"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "Delete"
-                      },
-                      "parameters": [
-                        "SPAWN3",
-                        ""
-                      ]
-                    }
+                  "type": {
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "go",
+                    "523",
+                    "353",
+                    ""
                   ]
                 },
                 {
-                  "type": "BuiltinCommonInstructions::ForEach",
-                  "object": "SPAWN4",
-                  "conditions": [],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "Create"
-                      },
-                      "parameters": [
-                        "",
-                        "slime_all",
-                        "SPAWN4.X()",
-                        "SPAWN4.Y()",
-                        ""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "SetNumberObjectVariable"
-                      },
-                      "parameters": [
-                        "slime_all",
-                        "id",
-                        "=",
-                        "RandomInRange(2,52)"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "AnimatableCapability::AnimatableBehavior::SetName"
-                      },
-                      "parameters": [
-                        "slime_all",
-                        "Animation",
-                        "=",
-                        "slime_all.id"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "Delete"
-                      },
-                      "parameters": [
-                        "SPAWN4",
-                        ""
-                      ]
-                    }
+                  "type": {
+                    "value": "ChangePlan"
+                  },
+                  "parameters": [
+                    "go",
+                    "=",
+                    "40"
                   ]
                 },
                 {
-                  "type": "BuiltinCommonInstructions::ForEach",
-                  "object": "SPAWN5",
-                  "conditions": [],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "Create"
-                      },
-                      "parameters": [
-                        "",
-                        "slime_all",
-                        "SPAWN5.X()",
-                        "SPAWN5.Y()",
-                        ""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "SetNumberObjectVariable"
-                      },
-                      "parameters": [
-                        "slime_all",
-                        "id",
-                        "=",
-                        "RandomInRange(2,52)"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "AnimatableCapability::AnimatableBehavior::SetName"
-                      },
-                      "parameters": [
-                        "slime_all",
-                        "Animation",
-                        "=",
-                        "slime_all.id"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "Delete"
-                      },
-                      "parameters": [
-                        "SPAWN5",
-                        ""
-                      ]
-                    }
+                  "type": {
+                    "value": "Wait"
+                  },
+                  "parameters": [
+                    "2"
                   ]
                 },
                 {
-                  "type": "BuiltinCommonInstructions::ForEach",
-                  "object": "SPAWN6",
-                  "conditions": [],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "Create"
-                      },
-                      "parameters": [
-                        "",
-                        "slime_all",
-                        "SPAWN6.X()",
-                        "SPAWN6.Y()",
-                        ""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "SetNumberObjectVariable"
-                      },
-                      "parameters": [
-                        "slime_all",
-                        "id",
-                        "=",
-                        "RandomInRange(2,52)"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "AnimatableCapability::AnimatableBehavior::SetName"
-                      },
-                      "parameters": [
-                        "slime_all",
-                        "Animation",
-                        "=",
-                        "slime_all.id"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "Delete"
-                      },
-                      "parameters": [
-                        "SPAWN6",
-                        ""
-                      ]
-                    }
+                  "type": {
+                    "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
+                  },
+                  "parameters": [
+                    "go",
+                    "Tween",
+                    "\"go\"",
+                    "0",
+                    "\"easeOutQuad\"",
+                    "1",
+                    "no"
                   ]
-                },
-                {
-                  "type": "BuiltinCommonInstructions::ForEach",
-                  "object": "SPAWN7",
-                  "conditions": [],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "Create"
-                      },
-                      "parameters": [
-                        "",
-                        "slime_all",
-                        "SPAWN7.X()",
-                        "SPAWN7.Y()",
-                        ""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "SetNumberObjectVariable"
-                      },
-                      "parameters": [
-                        "slime_all",
-                        "id",
-                        "=",
-                        "RandomInRange(2,52)"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "AnimatableCapability::AnimatableBehavior::SetName"
-                      },
-                      "parameters": [
-                        "slime_all",
-                        "Animation",
-                        "=",
-                        "slime_all.id"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "Delete"
-                      },
-                      "parameters": [
-                        "SPAWN7",
-                        ""
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "type": "BuiltinCommonInstructions::ForEach",
-                  "object": "SPAWN8",
-                  "conditions": [],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "Create"
-                      },
-                      "parameters": [
-                        "",
-                        "slime_all",
-                        "SPAWN8.X()",
-                        "SPAWN8.Y()",
-                        ""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "SetNumberObjectVariable"
-                      },
-                      "parameters": [
-                        "slime_all",
-                        "id",
-                        "=",
-                        "RandomInRange(2,52)"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "AnimatableCapability::AnimatableBehavior::SetName"
-                      },
-                      "parameters": [
-                        "slime_all",
-                        "Animation",
-                        "=",
-                        "slime_all.id"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "Delete"
-                      },
-                      "parameters": [
-                        "SPAWN8",
-                        ""
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "type": "BuiltinCommonInstructions::ForEach",
-                  "object": "SPAWN9",
-                  "conditions": [],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "Create"
-                      },
-                      "parameters": [
-                        "",
-                        "slime_all",
-                        "SPAWN9.X()",
-                        "SPAWN9.Y()",
-                        ""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "SetNumberObjectVariable"
-                      },
-                      "parameters": [
-                        "slime_all",
-                        "id",
-                        "=",
-                        "RandomInRange(2,52)"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "AnimatableCapability::AnimatableBehavior::SetName"
-                      },
-                      "parameters": [
-                        "slime_all",
-                        "Animation",
-                        "=",
-                        "slime_all.id"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "Delete"
-                      },
-                      "parameters": [
-                        "SPAWN9",
-                        ""
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "type": "BuiltinCommonInstructions::ForEach",
-                  "object": "SPAWN10",
-                  "conditions": [],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "Create"
-                      },
-                      "parameters": [
-                        "",
-                        "slime_all",
-                        "SPAWN10.X()",
-                        "SPAWN10.Y()",
-                        ""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "SetNumberObjectVariable"
-                      },
-                      "parameters": [
-                        "slime_all",
-                        "id",
-                        "=",
-                        "RandomInRange(2,52)"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "AnimatableCapability::AnimatableBehavior::SetName"
-                      },
-                      "parameters": [
-                        "slime_all",
-                        "Animation",
-                        "=",
-                        "slime_all.id"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "Delete"
-                      },
-                      "parameters": [
-                        "SPAWN10",
-                        ""
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "type": "BuiltinCommonInstructions::ForEach",
-                  "object": "SPAWN11",
-                  "conditions": [],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "Create"
-                      },
-                      "parameters": [
-                        "",
-                        "slime_all",
-                        "SPAWN11.X()",
-                        "SPAWN11.Y()",
-                        ""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "SetNumberObjectVariable"
-                      },
-                      "parameters": [
-                        "slime_all",
-                        "id",
-                        "=",
-                        "RandomInRange(2,52)"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "AnimatableCapability::AnimatableBehavior::SetName"
-                      },
-                      "parameters": [
-                        "slime_all",
-                        "Animation",
-                        "=",
-                        "slime_all.id"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "Delete"
-                      },
-                      "parameters": [
-                        "SPAWN11",
-                        ""
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "type": "BuiltinCommonInstructions::ForEach",
-                  "object": "SPAWN12",
-                  "conditions": [],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "Create"
-                      },
-                      "parameters": [
-                        "",
-                        "slime_all",
-                        "SPAWN12.X()",
-                        "SPAWN12.Y()",
-                        ""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "SetNumberObjectVariable"
-                      },
-                      "parameters": [
-                        "slime_all",
-                        "id",
-                        "=",
-                        "RandomInRange(2,52)"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "AnimatableCapability::AnimatableBehavior::SetName"
-                      },
-                      "parameters": [
-                        "slime_all",
-                        "Animation",
-                        "=",
-                        "slime_all.id"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "Delete"
-                      },
-                      "parameters": [
-                        "SPAWN12",
-                        ""
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "type": "BuiltinCommonInstructions::ForEach",
-                  "object": "SPAWN13",
-                  "conditions": [],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "Create"
-                      },
-                      "parameters": [
-                        "",
-                        "slime_all",
-                        "SPAWN13.X()",
-                        "SPAWN13.Y()",
-                        ""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "SetNumberObjectVariable"
-                      },
-                      "parameters": [
-                        "slime_all",
-                        "id",
-                        "=",
-                        "RandomInRange(2,52)"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "AnimatableCapability::AnimatableBehavior::SetName"
-                      },
-                      "parameters": [
-                        "slime_all",
-                        "Animation",
-                        "=",
-                        "slime_all.id"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "Delete"
-                      },
-                      "parameters": [
-                        "SPAWN13",
-                        ""
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "type": "BuiltinCommonInstructions::ForEach",
-                  "object": "SPAWN14",
-                  "conditions": [],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "Create"
-                      },
-                      "parameters": [
-                        "",
-                        "slime_all",
-                        "SPAWN14.X()",
-                        "SPAWN14.Y()",
-                        ""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "SetNumberObjectVariable"
-                      },
-                      "parameters": [
-                        "slime_all",
-                        "id",
-                        "=",
-                        "RandomInRange(2,52)"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "AnimatableCapability::AnimatableBehavior::SetName"
-                      },
-                      "parameters": [
-                        "slime_all",
-                        "Animation",
-                        "=",
-                        "slime_all.id"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "Delete"
-                      },
-                      "parameters": [
-                        "SPAWN14",
-                        ""
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "type": "BuiltinCommonInstructions::ForEach",
-                  "object": "SPAWN15",
-                  "conditions": [],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "Create"
-                      },
-                      "parameters": [
-                        "",
-                        "slime_all",
-                        "SPAWN15.X()",
-                        "SPAWN15.Y()",
-                        ""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "SetNumberObjectVariable"
-                      },
-                      "parameters": [
-                        "slime_all",
-                        "id",
-                        "=",
-                        "RandomInRange(2,52)"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "AnimatableCapability::AnimatableBehavior::SetName"
-                      },
-                      "parameters": [
-                        "slime_all",
-                        "Animation",
-                        "=",
-                        "slime_all.id"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "Delete"
-                      },
-                      "parameters": [
-                        "SPAWN15",
-                        ""
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "type": "BuiltinCommonInstructions::ForEach",
-                  "object": "SPAWN16",
-                  "conditions": [],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "Create"
-                      },
-                      "parameters": [
-                        "",
-                        "slime_all",
-                        "SPAWN16.X()",
-                        "SPAWN16.Y()",
-                        ""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "SetNumberObjectVariable"
-                      },
-                      "parameters": [
-                        "slime_all",
-                        "id",
-                        "=",
-                        "RandomInRange(2,52)"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "AnimatableCapability::AnimatableBehavior::SetName"
-                      },
-                      "parameters": [
-                        "slime_all",
-                        "Animation",
-                        "=",
-                        "slime_all.id"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "Delete"
-                      },
-                      "parameters": [
-                        "SPAWN16",
-                        ""
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "type": "BuiltinCommonInstructions::ForEach",
-                  "object": "SPAWN17",
-                  "conditions": [],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "Create"
-                      },
-                      "parameters": [
-                        "",
-                        "slime_all",
-                        "SPAWN17.X()",
-                        "SPAWN17.Y()",
-                        ""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "SetNumberObjectVariable"
-                      },
-                      "parameters": [
-                        "slime_all",
-                        "id",
-                        "=",
-                        "RandomInRange(2,52)"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "AnimatableCapability::AnimatableBehavior::SetName"
-                      },
-                      "parameters": [
-                        "slime_all",
-                        "Animation",
-                        "=",
-                        "slime_all.id"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "Delete"
-                      },
-                      "parameters": [
-                        "SPAWN17",
-                        ""
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "type": "BuiltinCommonInstructions::ForEach",
-                  "object": "SPAWN18",
-                  "conditions": [],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "Create"
-                      },
-                      "parameters": [
-                        "",
-                        "slime_all",
-                        "SPAWN18.X()",
-                        "SPAWN18.Y()",
-                        ""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "SetNumberObjectVariable"
-                      },
-                      "parameters": [
-                        "slime_all",
-                        "id",
-                        "=",
-                        "RandomInRange(2,52)"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "AnimatableCapability::AnimatableBehavior::SetName"
-                      },
-                      "parameters": [
-                        "slime_all",
-                        "Animation",
-                        "=",
-                        "slime_all.id"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "Delete"
-                      },
-                      "parameters": [
-                        "SPAWN18",
-                        ""
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "type": "BuiltinCommonInstructions::ForEach",
-                  "object": "SPAWN19",
-                  "conditions": [],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "Create"
-                      },
-                      "parameters": [
-                        "",
-                        "slime_all",
-                        "SPAWN19.X()",
-                        "SPAWN19.Y()",
-                        ""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "SetNumberObjectVariable"
-                      },
-                      "parameters": [
-                        "slime_all",
-                        "id",
-                        "=",
-                        "RandomInRange(2,52)"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "AnimatableCapability::AnimatableBehavior::SetName"
-                      },
-                      "parameters": [
-                        "slime_all",
-                        "Animation",
-                        "=",
-                        "slime_all.id"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "Delete"
-                      },
-                      "parameters": [
-                        "SPAWN19",
-                        ""
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "type": "BuiltinCommonInstructions::ForEach",
-                  "object": "SPAWN20",
-                  "conditions": [],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "Create"
-                      },
-                      "parameters": [
-                        "",
-                        "slime_all",
-                        "SPAWN20.X()",
-                        "SPAWN20.Y()",
-                        ""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "SetNumberObjectVariable"
-                      },
-                      "parameters": [
-                        "slime_all",
-                        "id",
-                        "=",
-                        "RandomInRange(2,52)"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "AnimatableCapability::AnimatableBehavior::SetName"
-                      },
-                      "parameters": [
-                        "slime_all",
-                        "Animation",
-                        "=",
-                        "slime_all.id"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "Delete"
-                      },
-                      "parameters": [
-                        "SPAWN20",
-                        ""
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "type": "BuiltinCommonInstructions::ForEach",
-                  "object": "SPAWN21",
-                  "conditions": [],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "Create"
-                      },
-                      "parameters": [
-                        "",
-                        "slime_all",
-                        "SPAWN21.X()",
-                        "SPAWN21.Y()",
-                        ""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "SetNumberObjectVariable"
-                      },
-                      "parameters": [
-                        "slime_all",
-                        "id",
-                        "=",
-                        "RandomInRange(2,52)"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "AnimatableCapability::AnimatableBehavior::SetName"
-                      },
-                      "parameters": [
-                        "slime_all",
-                        "Animation",
-                        "=",
-                        "slime_all.id"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "Delete"
-                      },
-                      "parameters": [
-                        "SPAWN21",
-                        ""
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "type": "BuiltinCommonInstructions::ForEach",
-                  "object": "SPAWN22",
-                  "conditions": [],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "Create"
-                      },
-                      "parameters": [
-                        "",
-                        "slime_all",
-                        "SPAWN22.X()",
-                        "SPAWN22.Y()",
-                        ""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "SetNumberObjectVariable"
-                      },
-                      "parameters": [
-                        "slime_all",
-                        "id",
-                        "=",
-                        "RandomInRange(2,52)"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "AnimatableCapability::AnimatableBehavior::SetName"
-                      },
-                      "parameters": [
-                        "slime_all",
-                        "Animation",
-                        "=",
-                        "slime_all.id"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "Delete"
-                      },
-                      "parameters": [
-                        "SPAWN22",
-                        ""
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "type": "BuiltinCommonInstructions::ForEach",
-                  "object": "SPAWN23",
-                  "conditions": [],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "Create"
-                      },
-                      "parameters": [
-                        "",
-                        "slime_all",
-                        "SPAWN23.X()",
-                        "SPAWN23.Y()",
-                        ""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "SetNumberObjectVariable"
-                      },
-                      "parameters": [
-                        "slime_all",
-                        "id",
-                        "=",
-                        "RandomInRange(2,52)"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "AnimatableCapability::AnimatableBehavior::SetName"
-                      },
-                      "parameters": [
-                        "slime_all",
-                        "Animation",
-                        "=",
-                        "slime_all.id"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "Delete"
-                      },
-                      "parameters": [
-                        "SPAWN23",
-                        ""
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "type": "BuiltinCommonInstructions::ForEach",
-                  "object": "SPAWN24",
-                  "conditions": [],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "Create"
-                      },
-                      "parameters": [
-                        "",
-                        "slime_all",
-                        "SPAWN24.X()",
-                        "SPAWN24.Y()",
-                        ""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "SetNumberObjectVariable"
-                      },
-                      "parameters": [
-                        "slime_all",
-                        "id",
-                        "=",
-                        "RandomInRange(2,52)"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "AnimatableCapability::AnimatableBehavior::SetName"
-                      },
-                      "parameters": [
-                        "slime_all",
-                        "Animation",
-                        "=",
-                        "slime_all.id"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "Delete"
-                      },
-                      "parameters": [
-                        "SPAWN24",
-                        ""
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "type": "BuiltinCommonInstructions::ForEach",
-                  "object": "SPAWN25",
-                  "conditions": [],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "Create"
-                      },
-                      "parameters": [
-                        "",
-                        "slime_all",
-                        "SPAWN25.X()",
-                        "SPAWN25.Y()",
-                        ""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "SetNumberObjectVariable"
-                      },
-                      "parameters": [
-                        "slime_all",
-                        "id",
-                        "=",
-                        "RandomInRange(2,52)"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "AnimatableCapability::AnimatableBehavior::SetName"
-                      },
-                      "parameters": [
-                        "slime_all",
-                        "Animation",
-                        "=",
-                        "slime_all.id"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "Delete"
-                      },
-                      "parameters": [
-                        "SPAWN25",
-                        ""
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "type": "BuiltinCommonInstructions::ForEach",
-                  "object": "SPAWN26",
-                  "conditions": [],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "Create"
-                      },
-                      "parameters": [
-                        "",
-                        "slime_all",
-                        "SPAWN26.X()",
-                        "SPAWN26.Y()",
-                        ""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "SetNumberObjectVariable"
-                      },
-                      "parameters": [
-                        "slime_all",
-                        "id",
-                        "=",
-                        "RandomInRange(2,52)"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "AnimatableCapability::AnimatableBehavior::SetName"
-                      },
-                      "parameters": [
-                        "slime_all",
-                        "Animation",
-                        "=",
-                        "slime_all.id"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "Delete"
-                      },
-                      "parameters": [
-                        "SPAWN26",
-                        ""
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "type": "BuiltinCommonInstructions::ForEach",
-                  "object": "SPAWN27",
-                  "conditions": [],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "Create"
-                      },
-                      "parameters": [
-                        "",
-                        "slime_all",
-                        "SPAWN27.X()",
-                        "SPAWN27.Y()",
-                        ""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "SetNumberObjectVariable"
-                      },
-                      "parameters": [
-                        "slime_all",
-                        "id",
-                        "=",
-                        "RandomInRange(2,52)"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "AnimatableCapability::AnimatableBehavior::SetName"
-                      },
-                      "parameters": [
-                        "slime_all",
-                        "Animation",
-                        "=",
-                        "slime_all.id"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "Delete"
-                      },
-                      "parameters": [
-                        "SPAWN27",
-                        ""
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "type": "BuiltinCommonInstructions::ForEach",
-                  "object": "SPAWN28",
-                  "conditions": [],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "Create"
-                      },
-                      "parameters": [
-                        "",
-                        "slime_all",
-                        "SPAWN28.X()",
-                        "SPAWN28.Y()",
-                        ""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "SetNumberObjectVariable"
-                      },
-                      "parameters": [
-                        "slime_all",
-                        "id",
-                        "=",
-                        "RandomInRange(2,52)"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "AnimatableCapability::AnimatableBehavior::SetName"
-                      },
-                      "parameters": [
-                        "slime_all",
-                        "Animation",
-                        "=",
-                        "slime_all.id"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "Delete"
-                      },
-                      "parameters": [
-                        "SPAWN28",
-                        ""
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "type": "BuiltinCommonInstructions::ForEach",
-                  "object": "SPAWN29",
-                  "conditions": [],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "Create"
-                      },
-                      "parameters": [
-                        "",
-                        "slime_all",
-                        "SPAWN28.X()",
-                        "SPAWN29.Y()",
-                        ""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "SetNumberObjectVariable"
-                      },
-                      "parameters": [
-                        "slime_all",
-                        "id",
-                        "=",
-                        "RandomInRange(2,52)"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "AnimatableCapability::AnimatableBehavior::SetName"
-                      },
-                      "parameters": [
-                        "slime_all",
-                        "Animation",
-                        "=",
-                        "slime_all.id"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "Delete"
-                      },
-                      "parameters": [
-                        "SPAWN29",
-                        ""
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "type": "BuiltinCommonInstructions::ForEach",
-                  "object": "SPAWN30",
-                  "conditions": [],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "Create"
-                      },
-                      "parameters": [
-                        "",
-                        "slime_all",
-                        "SPAWN30.X()",
-                        "SPAWN30.Y()",
-                        ""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "SetNumberObjectVariable"
-                      },
-                      "parameters": [
-                        "slime_all",
-                        "id",
-                        "=",
-                        "RandomInRange(2,52)"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "AnimatableCapability::AnimatableBehavior::SetName"
-                      },
-                      "parameters": [
-                        "slime_all",
-                        "Animation",
-                        "=",
-                        "slime_all.id"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "Delete"
-                      },
-                      "parameters": [
-                        "SPAWN30",
-                        ""
-                      ]
-                    }
-                  ]
-                },
+                }
+              ],
+              "events": [
                 {
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [],
                   "actions": []
                 }
               ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "LayerVisible"
+                  },
+                  "parameters": [
+                    "",
+                    "\"info dicari\""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Montre"
+                  },
+                  "parameters": [
+                    "SPAWN",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Montre"
+                  },
+                  "parameters": [
+                    "hint",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Montre"
+                  },
+                  "parameters": [
+                    "timer",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Montre"
+                  },
+                  "parameters": [
+                    "timertext",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ActivateBehavior"
+                  },
+                  "parameters": [
+                    "slime_all",
+                    "ButtonFSM",
+                    "yes"
+                  ]
+                }
+              ],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::Once"
+                      },
+                      "parameters": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetNumberObjectVariable"
+                      },
+                      "parameters": [
+                        "SPAWN",
+                        "is_wanted",
+                        "=",
+                        "0"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "AjoutHasard"
+                      },
+                      "parameters": [
+                        "",
+                        "SPAWN"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetNumberObjectVariable"
+                      },
+                      "parameters": [
+                        "SPAWN",
+                        "is_wanted",
+                        "=",
+                        "1"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::ForEach",
+                  "object": "SPAWN",
+                  "conditions": [],
+                  "actions": [],
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "NumberObjectVariable"
+                          },
+                          "parameters": [
+                            "SPAWN",
+                            "is_wanted",
+                            "=",
+                            "1"
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "Create"
+                          },
+                          "parameters": [
+                            "",
+                            "slime_all",
+                            "SPAWN.X()",
+                            "SPAWN.Y()",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "SetNumberObjectVariable"
+                          },
+                          "parameters": [
+                            "slime_all",
+                            "id",
+                            "=",
+                            "wanted"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                          },
+                          "parameters": [
+                            "slime_all",
+                            "Animation",
+                            "=",
+                            "slime_all.id"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "SetNumberObjectVariable"
+                          },
+                          "parameters": [
+                            "slime_all",
+                            "is_wanted",
+                            "=",
+                            "1"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "NumberObjectVariable"
+                          },
+                          "parameters": [
+                            "SPAWN",
+                            "is_wanted",
+                            "=",
+                            "0"
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "Create"
+                          },
+                          "parameters": [
+                            "",
+                            "slime_all",
+                            "SPAWN.X()",
+                            "SPAWN.Y()",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "SetNumberObjectVariable"
+                          },
+                          "parameters": [
+                            "slime_all",
+                            "id",
+                            "=",
+                            "RandomInRange(2,52)"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                          },
+                          "parameters": [
+                            "slime_all",
+                            "Animation",
+                            "=",
+                            "slime_all.id"
+                          ]
+                        }
+                      ],
+                      "events": [
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "AjoutObjConcern"
+                              },
+                              "parameters": [
+                                "",
+                                "slime_all"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "AnimatableCapability::AnimatableBehavior::Name"
+                              },
+                              "parameters": [
+                                "slime_all",
+                                "Animation",
+                                "=",
+                                "wanted"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "NumberObjectVariable"
+                              },
+                              "parameters": [
+                                "slime_all",
+                                "is_wanted",
+                                "=",
+                                "0"
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "SetNumberObjectVariable"
+                              },
+                              "parameters": [
+                                "slime_all",
+                                "id",
+                                "=",
+                                "RandomInRange(2,52)"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                              },
+                              "parameters": [
+                                "slime_all",
+                                "Animation",
+                                "=",
+                                "slime_all.id"
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "Delete"
+                          },
+                          "parameters": [
+                            "SPAWN",
+                            ""
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "Tween::HasFinished"
+                  },
+                  "parameters": [
+                    "go",
+                    "Tween",
+                    "\"go\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ResetTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"timer\""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CompareTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"timer\"",
+                    ">",
+                    "1"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "timervalue",
+                    "-",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ResetTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"timer\""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "timertext",
+                    "Text",
+                    "=",
+                    "timervalue"
+                  ]
+                }
+              ]
             }
           ],
           "parameters": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "ButtonStates::ButtonFSM::IsClicked"
+              },
+              "parameters": [
+                "slime_all",
+                "ButtonFSM",
+                ""
+              ]
+            }
+          ],
+          "actions": [],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::CompareNumbers"
+                  },
+                  "parameters": [
+                    "slime_all.id",
+                    "=",
+                    "wanted"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Quit"
+                  },
+                  "parameters": [
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::CompareNumbers"
+                  },
+                  "parameters": [
+                    "slime_all.id",
+                    "!=",
+                    "wanted"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ShowLayer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"salah\""
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "layers": [
@@ -17206,12 +15855,122 @@
               }
             }
           ]
+        },
+        {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 3,
+          "cameraType": "",
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": false,
+          "name": "salah",
+          "renderingType": "",
+          "visibility": false,
+          "cameras": [],
+          "effects": [
+            {
+              "effectType": "Scene3D::HemisphereLight",
+              "name": "3D Ambient Hemisphere Light",
+              "doubleParameters": {
+                "elevation": 40,
+                "intensity": 0.33,
+                "rotation": 300
+              },
+              "stringParameters": {
+                "groundColor": "127;127;127",
+                "skyColor": "255;255;255",
+                "top": "Z+"
+              },
+              "booleanParameters": {}
+            },
+            {
+              "effectType": "Scene3D::DirectionalLight",
+              "name": "3D Sun Light",
+              "doubleParameters": {
+                "distanceFromCamera": 1500,
+                "elevation": 40,
+                "frustumSize": 4000,
+                "intensity": 0.75,
+                "minimumShadowBias": 0,
+                "rotation": 300
+              },
+              "stringParameters": {
+                "color": "255;255;255",
+                "shadowQuality": "medium",
+                "top": "Z+"
+              },
+              "booleanParameters": {
+                "isCastingShadow": true
+              }
+            }
+          ]
+        },
+        {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 3,
+          "cameraType": "",
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": false,
+          "name": "benar",
+          "renderingType": "",
+          "visibility": false,
+          "cameras": [],
+          "effects": [
+            {
+              "effectType": "Scene3D::HemisphereLight",
+              "name": "3D Ambient Hemisphere Light",
+              "doubleParameters": {
+                "elevation": 40,
+                "intensity": 0.33,
+                "rotation": 300
+              },
+              "stringParameters": {
+                "groundColor": "127;127;127",
+                "skyColor": "255;255;255",
+                "top": "Z+"
+              },
+              "booleanParameters": {}
+            },
+            {
+              "effectType": "Scene3D::DirectionalLight",
+              "name": "3D Sun Light",
+              "doubleParameters": {
+                "distanceFromCamera": 1500,
+                "elevation": 40,
+                "frustumSize": 4000,
+                "intensity": 0.75,
+                "minimumShadowBias": 0,
+                "rotation": 300
+              },
+              "stringParameters": {
+                "color": "255;255;255",
+                "shadowQuality": "medium",
+                "top": "Z+"
+              },
+              "booleanParameters": {
+                "isCastingShadow": true
+              }
+            }
+          ]
         }
       ],
       "behaviorsSharedData": [
         {
           "name": "Animation",
           "type": "AnimatableCapability::AnimatableBehavior"
+        },
+        {
+          "name": "ButtonFSM",
+          "type": "ButtonStates::ButtonFSM"
         },
         {
           "name": "Effect",
@@ -17232,6 +15991,18 @@
         {
           "name": "Scale",
           "type": "ScalableCapability::ScalableBehavior"
+        },
+        {
+          "name": "Text",
+          "type": "TextContainerCapability::TextContainerBehavior"
+        },
+        {
+          "name": "Tween",
+          "type": "Tween::TweenBehavior"
+        },
+        {
+          "name": "YSort",
+          "type": "YSort::YSort"
         }
       ]
     }
@@ -25232,6 +24003,106 @@
               "name": "PreviousState"
             }
           ],
+          "sharedPropertyDescriptors": []
+        }
+      ],
+      "eventsBasedObjects": []
+    },
+    {
+      "author": "Gustavo Marciano",
+      "category": "Visual effect",
+      "extensionNamespace": "",
+      "fullName": "YSort",
+      "gdevelopVersion": ">=5.5.222",
+      "helpPath": "",
+      "iconUrl": "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz48IURPQ1RZUEUgc3ZnIFBVQkxJQyAiLS8vVzNDLy9EVEQgU1ZHIDEuMS8vRU4iICJodHRwOi8vd3d3LnczLm9yZy9HcmFwaGljcy9TVkcvMS4xL0RURC9zdmcxMS5kdGQiPjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0ibWRpLXNvcnQtYXNjZW5kaW5nIiB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggZD0iTTE5IDE3SDIyTDE4IDIxTDE0IDE3SDE3VjNIMTlNMiAxN0gxMlYxOUgyTTYgNVY3SDJWNU0yIDExSDlWMTNIMlYxMVoiIC8+PC9zdmc+",
+      "name": "YSort",
+      "previewIconUrl": "https://resources.gdevelop-app.com/assets/Icons/sort-ascending.svg",
+      "shortDescription": "Create an illusion of depth by setting the Z-order based on the Y position of the object. Useful for isometric games, 2D games with a \"Top-Down\" view, RPG...",
+      "version": "0.1.0",
+      "description": [
+        "Set the depth (Z-order) of the instance to the value of its Y position in the scene, creating an illusion of depth. The origin point of the object is used to determine the Z-order.",
+        "",
+        "This is useful for:",
+        "- isometric games ([open the project online](https://editor.gdevelop.io/?project=example://isometric-game))",
+        "- top-down games ([open the project online](https://editor.gdevelop.io/?project=example://top-down-grid-movement))"
+      ],
+      "origin": {
+        "identifier": "YSort",
+        "name": "gdevelop-extension-store"
+      },
+      "tags": [
+        "z-order",
+        "y-sort",
+        "depth",
+        "fake-depth",
+        "isometric",
+        "rpg"
+      ],
+      "authorIds": [],
+      "dependencies": [],
+      "globalVariables": [],
+      "sceneVariables": [],
+      "eventsFunctions": [],
+      "eventsBasedBehaviors": [
+        {
+          "description": "Set the depth (Z-order) of the instance to the value of its Y position in the scene, creating an illusion of depth. The origin point of the object is used to determine the Z-order.",
+          "fullName": "YSort",
+          "name": "YSort",
+          "objectType": "",
+          "eventsFunctions": [
+            {
+              "fullName": "",
+              "functionType": "Action",
+              "name": "doStepPostEvents",
+              "sentence": "",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Comment",
+                  "color": {
+                    "b": 109,
+                    "g": 230,
+                    "r": 255,
+                    "textB": 0,
+                    "textG": 0,
+                    "textR": 0
+                  },
+                  "comment": "This is done in doStepPostEvents because the sort must happens right before the rendering to avoid a 1 frame delay."
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ChangePlan"
+                      },
+                      "parameters": [
+                        "Object",
+                        "=",
+                        "Object.Y()"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "type": "object"
+                },
+                {
+                  "description": "Behavior",
+                  "name": "Behavior",
+                  "supplementaryInformation": "YSort::YSort",
+                  "type": "behavior"
+                }
+              ],
+              "objectGroups": []
+            }
+          ],
+          "propertyDescriptors": [],
           "sharedPropertyDescriptors": []
         }
       ],
