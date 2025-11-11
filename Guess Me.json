@@ -7939,6 +7939,11 @@
       "name": "TempLoad",
       "type": "number",
       "value": 0
+    },
+    {
+      "name": "isMenu",
+      "type": "number",
+      "value": 0
     }
   ],
   "layouts": [
@@ -11041,7 +11046,7 @@
               "type": "EllipseMovement::EllipseMovement",
               "RadiusX": 0,
               "RadiusY": 3,
-              "LoopDuration": 1.5,
+              "LoopDuration": 1.8,
               "InitialTurningLeft": false,
               "InitialDirectionAngle": 0,
               "ShouldRotate": false,
@@ -12290,7 +12295,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "Logic Sound",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -12433,11 +12437,11 @@
                     },
                     {
                       "type": {
-                        "value": "StopMusicCanal"
+                        "value": "StopSoundCanal"
                       },
                       "parameters": [
                         "",
-                        "1"
+                        "3"
                       ]
                     },
                     {
@@ -12506,11 +12510,11 @@
                     },
                     {
                       "type": {
-                        "value": "RePlayMusicCanal"
+                        "value": "RePlaySoundCanal"
                       },
                       "parameters": [
                         "",
-                        "1"
+                        "3"
                       ]
                     },
                     {
@@ -12579,15 +12583,6 @@
                     },
                     {
                       "type": {
-                        "value": "StopMusicCanal"
-                      },
-                      "parameters": [
-                        "",
-                        "2"
-                      ]
-                    },
-                    {
-                      "type": {
                         "value": "EcrireFichierTxt"
                       },
                       "parameters": [
@@ -12644,15 +12639,6 @@
                     {
                       "type": {
                         "value": "RePlaySoundCanal"
-                      },
-                      "parameters": [
-                        "",
-                        "2"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "RePlayMusicCanal"
                       },
                       "parameters": [
                         "",
@@ -14366,6 +14352,43 @@
                     ""
                   ]
                 }
+              ],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "NumberVariable"
+                      },
+                      "parameters": [
+                        "isMenu",
+                        "=",
+                        "1"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "StopSoundCanal"
+                      },
+                      "parameters": [
+                        "",
+                        "3"
+                      ]
+                    }
+                  ],
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Link",
+                      "include": {
+                        "includeConfig": 0
+                      },
+                      "target": "BGM"
+                    }
+                  ]
+                }
               ]
             }
           ],
@@ -14408,7 +14431,7 @@
                   },
                   "parameters": [
                     "",
-                    "\"hard\"",
+                    "\"Loading\"",
                     ""
                   ]
                 },
@@ -14420,6 +14443,16 @@
                     "scenelevel",
                     "=",
                     "2"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "isMenu",
+                    "=",
+                    "0"
                   ]
                 }
               ],
@@ -14516,6 +14549,16 @@
                     "scenelevel",
                     "=",
                     "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "isMenu",
+                    "=",
+                    "0"
                   ]
                 }
               ],
@@ -14966,7 +15009,7 @@
       "name": "Loading",
       "r": 209,
       "standardSortMethod": true,
-      "stopSoundsOnStartup": false,
+      "stopSoundsOnStartup": true,
       "title": "",
       "v": 209,
       "uiSettings": {
@@ -18655,7 +18698,7 @@
                       "parameters": [
                         "",
                         "BGM - Gameplay.wav",
-                        "1",
+                        "3",
                         "yes",
                         "90",
                         "1"
@@ -20022,6 +20065,16 @@
                 }
               ],
               "actions": [
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "isMenu",
+                    "=",
+                    "1"
+                  ]
+                },
                 {
                   "type": {
                     "value": "Scene"
@@ -23402,7 +23455,7 @@
                       "parameters": [
                         "",
                         "BGM - Gameplay.wav",
-                        "1",
+                        "3",
                         "yes",
                         "90",
                         "1"
@@ -24805,6 +24858,16 @@
                 }
               ],
               "actions": [
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "isMenu",
+                    "=",
+                    "1"
+                  ]
+                },
                 {
                   "type": {
                     "value": "Scene"
